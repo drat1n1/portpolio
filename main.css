@@ -65,3 +65,11 @@ a:hover {
   border: 1px solid #000000;
   color: #ffffff;
 }
+
+/* section */
+
+.sec1 {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 5fr
+  grid-template-rows: 1.5fr 1fr 1fr 5fr
+}
