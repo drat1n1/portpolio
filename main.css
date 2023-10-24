@@ -5,6 +5,8 @@
   text-decoration: none;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
 a:link {
   color: red;
   text-decoration: none;
@@ -68,8 +70,52 @@ a:hover {
 
 /* section */
 
-.sec1 {
+.section1 {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 5fr
-  grid-template-rows: 1.5fr 1fr 1fr 5fr
+  grid-template-columns: 300fr 165fr 165fr 140fr 124fr 114fr 80fr 194fr 46fr;
+  grid-template-rows: 93px 42px 40px 175px 10px 155px 155px 110px;
+}
+
+.publisher,
+.and,
+.Designer {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -12px;
+  font-weight: 800;
+}
+
+.intro {
+  grid-column: 2 / span 9;
+  grid-row: 2;
+  font-size: 15px;
+}
+
+.publisher {
+  grid-column: 1 / span 5;
+  grid-row: 4;
+  font-size: 200px;
+}
+.line {
+  grid-column: 7 / span 1;
+  grid-row: 4;
+  border-left: thick solid #32a1ce;
+  height: 50px;
+}
+
+.intro2 {
+  grid-column: 8 / span 1;
+  grid-row: 4;
+  font-size: 20px;
+}
+
+.and {
+  grid-column: 4 / span 1;
+  grid-row: 5;
+  font-size: 200px;
+}
+
+.Designer {
+  grid-column: 3 / span 4;
+  grid-row: 7;
+  font-size: 200px;
 }
